@@ -3,6 +3,8 @@ Use these exercises to practice and extend the knowledge you gained during previ
 # Exercise 1: Serial Echo
 For your first practice exercise using the serial monitor, lets do something simple: echo any characters recieved by the program back through the serial connection so they show up on the serial monitor. This will be straightforward since you do not need to do any processing of the data recieved.
 
+Hint: There are two ways of doing this for lengthy messages: either read the entire message first and then output it all at once, or read and output each character individually. From my experience, one is much simpler than the other...
+
 Note: for this exercise, you do not need to create a circuit or connect the Arduino board to anything
 
 # Exercise 2: Serial Adder
