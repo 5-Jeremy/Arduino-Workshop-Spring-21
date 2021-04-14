@@ -1,3 +1,9 @@
+/*
+ * Code author: Jeremy Carleton
+ * This code was used in the demo showing how to
+ * control an LED with a button.
+ */
+
 void setup()
 {
   pinMode(7, OUTPUT);
