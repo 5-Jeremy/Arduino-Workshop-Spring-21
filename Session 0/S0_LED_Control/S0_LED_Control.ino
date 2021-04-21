@@ -2,6 +2,10 @@
  * Code author: Jeremy Carleton
  * This code was used in the demo showing how to
  * control an LED with a button.
+ * 
+ * To see the code being demonstrated, watch
+ * session 0 of the workshop series here:
+ * https://www.youtube.com/watch?v=xH92LeNyk5w&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=2
  */
 
 void setup()
