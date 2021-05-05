@@ -1,3 +1,5 @@
+## Note: The sample solution for exercise 2 has been uploaded, but the other sample solutions are not ready yet
+
 Use these exercises to practice and extend the knowledge you gained during previous workshop sessions. Sample solutions for each of the exercises will be made available after the session following the session in which the exercises were assigned, but it is highly recommended that you try coming to office hours to resolve any difficulties before looking at them.
 
 # Exercise 1: LED Indicator (extension of demo in session 3)
