@@ -1,3 +1,11 @@
+/*
+ * Code author: Jeremy Carleton
+ * This code shows an example of how each of the final project functions could be implemented.
+ * It follows the explanations provided during the introduction to the final project in session
+ * 4 pretty closely, so you should watch session 4 in order to most easily understand this code
+ * if you have not already.
+ */
+
 /****** Libraries used ******/
 #include <LiquidCrystal.h>
 /****** Game parameters ******/
