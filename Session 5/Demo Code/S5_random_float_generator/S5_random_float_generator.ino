@@ -1,0 +1,35 @@
+/*
+ * Code author: Jeremy Carleton
+ * This code was used during the demonstration in session 5 to send a single float value
+ * that can be received in Simulink and logged to the MATLAB workspace. In order to replicate
+ * this yourself, you need to install the software explained in the README for session 5 and 
+ * then follow the directions from session 5 to setup the Simulink model.
+ */
+
+typedef union{
+  float val;
+  uint8_t bytes[4];
+} float_union;
+
+float_union data;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Introduce a delay to simulate the sampling rate of a sensor
+  delay(50);
+  // Send the header character before each data point to allow the serial recieve block to
+   // identify separate data points
+  Serial.write('G'); 
+  // Generate a random data point between 0 and 1, and store it in the union as a float
+  data.val = random(0,100)/100.0;
+  // Send the data in the union as a set of 4 bytes, which will be interpereted as a float
+    // by the Simulink model
+  for (int i=0; i<4; i++){
+    Serial.write(data.bytes[i]); 
+  }
+  // Send the terminator character after each data point
+  Serial.print('\n');
+}
