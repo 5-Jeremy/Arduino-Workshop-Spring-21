@@ -109,7 +109,7 @@ void MoveObstacles() {
 
 void SpawnObstacle() {
   if (currObstacles >= max_obstacles) return;
-  bool row = (bool)random(2);
+  bool row = random(2);
   if (AddObstacle(row, 15)) {
     return;
   }
