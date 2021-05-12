@@ -2,6 +2,10 @@
  * Code author: Jeremy Carleton
  * This code was used in the demo showing how
  * delays can be used on an LED circuit
+ * 
+ * To see the code being demonstrated, watch
+ * session 2 of the workshop series here:
+ * https://www.youtube.com/watch?v=hzs0jgZLPTU&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=3
  */
 
 int delayVal;

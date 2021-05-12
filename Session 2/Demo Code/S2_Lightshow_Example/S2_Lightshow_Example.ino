@@ -3,6 +3,10 @@
  * This code is a very simple example
  * of how to create a looping lightshow
  * for the custom lightshow project.
+ * 
+ * To see the code being demonstrated on a physical circuit, watch
+ * session 3 of the workshop series here:
+ * https://www.youtube.com/watch?v=5ZHbrZyIhhQ&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=5
  */
 
 #define TR_PIN 2
