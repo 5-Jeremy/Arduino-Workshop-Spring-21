@@ -84,7 +84,7 @@ void MoveObstacles() {
       // there is no obstacle here
     if (row0Entities[i] != NULL) {
       // Handle the case where the obstacle has reached the left side
-      if (i == 0 && player.row == 0) {
+      if (i == player.col && player.row == 0) {
         // If both the player and the obstacle are on the same space then its game over
         GameOver();
       }
@@ -95,7 +95,7 @@ void MoveObstacles() {
     // Repeat for row1Entities
     if (row1Entities[i] != NULL) {
       // Handle the case where the obstacle has reached the left side
-      if (i == 0 && player.row == 1) {
+      if (i == player.col && player.row == 1) {
         // If both the player and the obstacle are on the same space then its game over
         GameOver();
       }
@@ -109,7 +109,7 @@ void MoveObstacles() {
 
 void SpawnObstacle() {
   if (currObstacles >= max_obstacles) return;
-  bool row = (bool)random(2);
+  bool row = random(2);
   if (AddObstacle(row, 15)) {
     return;
   }
