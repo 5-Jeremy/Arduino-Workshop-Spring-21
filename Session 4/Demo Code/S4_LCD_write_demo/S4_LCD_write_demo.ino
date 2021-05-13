@@ -3,6 +3,10 @@
  * This code demonstrates how lcd.write can be called
  * repeatedly to display a longer message on the LCD,
  * since the cursor is moved automatically
+ * 
+ * To see the code being demonstrated, watch
+ * session 4 of the workshop series here:
+ * https://www.youtube.com/watch?v=7CSGJm4wRhA&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=5
  */
 
 // Include the library code:

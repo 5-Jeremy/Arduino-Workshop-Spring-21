@@ -2,6 +2,9 @@
  * Code author: Jeremy Carleton
  * Use this code as a template to start out your final project, and add code to the incomplete functions
  * in order to complete the project. For further guidance, see the session 4 slides or recording.
+ * 
+ * Watch session 4 here:
+ * https://www.youtube.com/watch?v=7CSGJm4wRhA&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=5
  */
 
 /****** Libraries used ******/

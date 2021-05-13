@@ -4,6 +4,9 @@
  * It follows the explanations provided during the introduction to the final project in session
  * 4 pretty closely, so you should watch session 4 in order to most easily understand this code
  * if you have not already.
+ * 
+ * Watch session 4 here:
+ * https://www.youtube.com/watch?v=7CSGJm4wRhA&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=5
  */
 
 /****** Libraries used ******/
