@@ -3,6 +3,10 @@
  * This code demonstrates what happens when you attempt
  * to print a string with too many characters to fit on
  * the LCD screen.
+ * 
+ * To see the code being demonstrated, watch
+ * session 4 of the workshop series here:
+ * https://www.youtube.com/watch?v=7CSGJm4wRhA&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=5
  */
 
 // Include the library code:
