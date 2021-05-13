@@ -4,3 +4,5 @@ This repo hosts all of the files required for practice assignments and the final
 Recordings of each of the sessions in this workshop series are available [here](https://www.youtube.com/playlist?list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us).
 
 Please note: The recordings for previous sessions are still being processed. If you do not see a recording for a past session yet, please be patient.
+
+Extra materials such as the slides for each session can be found via the [UCR UAS website](https://ucr-uas.weebly.com/workshops.html).
