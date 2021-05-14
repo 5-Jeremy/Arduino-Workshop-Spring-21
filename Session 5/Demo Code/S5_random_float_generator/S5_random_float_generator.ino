@@ -4,6 +4,9 @@
  * that can be received in Simulink and logged to the MATLAB workspace. In order to replicate
  * this yourself, you need to install the software explained in the README for session 5 and 
  * then follow the directions from session 5 to setup the Simulink model.
+ * 
+ * Watch session 5 of the workshop series here: 
+ * https://www.youtube.com/watch?v=_glpVfHw2qg&list=PLfmzHX29KVv_cbdHYJD3cuvoo_Valq8us&index=6
  */
 
 typedef union{
@@ -25,7 +28,7 @@ void loop() {
   Serial.write('G'); 
   // Generate a random data point between 0 and 1, and store it in the union as a float
   data.val = random(0,100)/100.0;
-  // Send the data in the union as a set of 4 bytes, which will be interpereted as a float
+  // Send the data in the union as a set of 4 bytes, which will be interpereted as a single
     // by the Simulink model
   for (int i=0; i<4; i++){
     Serial.write(data.bytes[i]); 
